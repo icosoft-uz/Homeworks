@@ -1,0 +1,45 @@
+Uyga Vazifa 7:
+
+Topshiriq 1:
+____________________________________________________________________________
+
+Person  nomli ota class yarating va uni name, birthday, phone va address nomli instance atributlari bo’lsin. Student nomli bola class,  Person ota class dan voris olsin qo’chimcha course nomli instance atributi bo’lsin va Student class constructor dan tashqari hech qanday instance method yozmasdan Student haqida foydali ma’lumot bera oladigan dastur tuzing.
+
+name - Student ismi
+birthday - tug’ilgan kuni
+phone - telefon raqami
+address - manzili
+
+
+Topshiriq 2:
+____________________________________________________________________________
+
+Satrni so'zma-so'z o'zgartirish uchun ReverseText class yozing. Satrni so‘zma-so‘z teskarisiga aylantiruv restr() nomli instance method bo’lsin.
+
+Topshiriq 3:
+____________________________________________________________________________
+
+Eni va bo`yi bo'yicha tuzilgan Rectangle nomli class va to'rtburchakning yuzasini hisoblash dasturini yozing.
+
+
+Topshiriq 4:
+____________________________________________________________________________
+
+Radius bo'yicha qurilgan Circle nomli class, doira yuzi va uzunligini hisoblash dasturini yozing.
+
+
+
+
+
+
+Topshiriq 5:
+____________________________________________________________________________
+
+Uchta qiymatning medianini topish uchun FindMedian class yozing va uning get_median() nomli instance method bo’lsin.
+____________________________________
+Masalan: (25, 65, 55)  (25, 55, 65)  55
+Natija: 55
+
+Topshiriq 6:
+________________________________________________________________
+Student class uning 3 ta instance attributi (name, phone, address)  bor. Bu studentlar haqidagi ma’lumotlarni student.txt fayliga yozadigan dastur tuzib bering. Faylni nomini console orqali kiritadigan qiling va istalgancha obyekt yaratilishi uchun while True va break, continue lar ishlating.
