@@ -1,0 +1,37 @@
+Uyga Vazifa 5:
+
+Topshiriq 1:
+
+____________________________________________________________________________
+
+1. Car nomi class yarating va uni model, name, color, price, km va speed nomli instance atributlari bo’lsin. Shu class yordamida 15 ta eng mashxur avtomobillar ro’yxatini shakllantiring va shu 15 tasi haqida to’liq ma’lumotlarni ham ekranga chop etuvchi dastur tuzing.
+
+model - Avtomobilni modeli
+name - nomi
+color - rangi
+price - narxi
+km - necha km yo’l yurgani
+speed - maximal tezligi
+
+____________________________________________________________________________
+
+2. Phone nomi class yarating va uni model, name, color, price, storage va pixel  nomli instance atributlari bo’lsin. Shu class yordamida istalgancha eng mashxur telefonlar  ro’yxatini shakllantiring va class attribute count ga murojat qilganda nechta obyekt yaratilganini aniq aytib bersuvchi dastur tuzing.
+
+model - Telefonnii modeli
+name - nomi
+color - rangi
+price - narxi
+pixel -kamerasining pikseli
+count - hamma obyektlar soni
+
+
+____________________________________________________________________________
+
+
+3. Animal nomi class yarating va uni name, color va age va  nomli instance atributlari bo’lsin. Shu class yordamida istalgancha eng uy hayvonlarini ro’yxatini shakllantiring va obyektlarning count class atributiga mu’rojat qiiinganda uning qaysi tartib raqamda yaratilganini ekranga chiqarib beruvchi dastur tuzing.
+
+name - Hayvonni nomi
+color - rangi
+age - yoshi
+count - n-obyektning tartib raqami
+____________________________________________________________________________
