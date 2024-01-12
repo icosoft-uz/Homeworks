@@ -1,0 +1,18 @@
+Uyga Vazifa 6:
+
+Topshiriq 1:
+
+____________________________________________________________________________
+
+1. Student  nomli class yarating va uni name, birthday, course_level, phone
+va address nomli instance atributlari bo’lsin. Shu Student class dan obyekt
+yaratilganda so’ng uning hech bir metodiga murojaat qilmasdan foydali ma’lumot
+chiqaradigan qiling.
+
+name - ismi
+birthday - tug'ilgan kuni
+course_level - bosqichi
+phone - telefon raqami
+address - manzili
+
+____________________________________________________________________________

@@ -10,6 +10,7 @@ class Mobile:
         self.pixel = pixel
         Mobile.count += 1
 
+
 a = Mobile('Samsung', 'Galaxy S21', 'black', 1000, '128GB', '108MP')
 b = Mobile('iPhone', '13', 'white', 1200, '128GB', '120MP')
 c = Mobile('Google', 'Pixel 6', 'white', 800, '256GB', '50MP')
@@ -21,7 +22,5 @@ h = Mobile('Google', 'Pixel 5', 'white', 700, '256GB', '50MP')
 i = Mobile('iPhone', '14 Pro', 'black', 1000, '256GB', '100MP')
 j = Mobile('Redmi', 'A8', 'white', 600, '128GB', '50MP')
 k = Mobile('Huawei', 'X5', 'blue', 600, '64GB', '80MP')
-
-# animal_instances = [Mobiles(*mobile) for mobile in mobiles_data]
 
 print(f"Telefonlar soni: {a.count} ta.")

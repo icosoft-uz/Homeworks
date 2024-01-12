@@ -1,11 +1,11 @@
 class Cars:
-  def __init__(self, model, name, color, price, km, speed):
-      self.model = model
-      self.name = name
-      self.color = color
-      self.price = price
-      self.km = km
-      self.speed = speed
+    def __init__(self, model, name, color, price, km, speed):
+        self.model = model
+        self.name = name
+        self.color = color
+        self.price = price
+        self.km = km
+        self.speed = speed
 
 
 a = ('Toyota', 'Camry', 'white', 25000, 30000, 180),
@@ -21,7 +21,6 @@ j = ('Mazda', 'CX-5', 'black', 40000, 18000, 220),
 k = ('Dodge', 'Challenger', 'black', 30000, 12000, 280),
 l = ('Jeep', 'Wrangler', 'blue', 35000, 16000, 220),
 m = ('Subaru', 'Impreza', 'silver', 28000, 22000, 190),
-n = ('Lexus', 'RX', 'red', 40000, 18000, 250)]
-
+n = ('Lexus', 'RX', 'red', 40000, 18000, 250)
 
 print(f"Model: {a.model}, Nom: {a.name}, Rang: {a.color}, Narx: {a.price}, Km: {a.km}, Tezlik: {a.speed}")
