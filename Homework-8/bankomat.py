@@ -20,12 +20,10 @@ class BankomatApp:
             self.display_message("invalid_card_number")
             return False
 
-        # Check card number length
         if not (16 <= len(card_number) <= 19):
             self.display_message("invalid_card_number_length")
             return False
 
-        # Check card number in cards.json
         card_found = any(card["card_number"] == card_number for card in self.cards)
         if not card_found:
             self.display_message("invalid_card_number")
@@ -42,7 +40,6 @@ class BankomatApp:
                 self.current_card = card
                 return True
 
-        # Increment pin attempts when login fails
         self.pin_attempts += 1
         if self.pin_attempts >= self.max_pin_attempts:
             self.display_message("card_frozen")
