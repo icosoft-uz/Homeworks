@@ -1,0 +1,74 @@
+{
+  "cards": [
+    {
+      "card_number": "1234567890123456",
+      "pin_code": "12345",
+      "name": "John Doe",
+      "balance": 1500.0,
+      "connected_number": "+1234567890"
+    },
+    {
+      "card_number": "9876543210987654",
+      "pin_code": "4321",
+      "name": "Jane Smith",
+      "balance": 2500.0,
+      "connected_number": "+9876543210"
+    },
+    {
+      "card_number": "1111222233334444",
+      "pin_code": "5678",
+      "name": "Alice Johnson",
+      "balance": 3000.0,
+      "connected_number": "+1112223333"
+    },
+    {
+      "card_number": "5555666677778888",
+      "pin_code": "8765",
+      "name": "Bob Anderson",
+      "balance": 2000.0,
+      "connected_number": "+5554443333"
+    },
+    {
+      "card_number": "9999888877776666",
+      "pin_code": "4321",
+      "name": "Emily White",
+      "balance": 1800.0,
+      "connected_number": "+9998887777"
+    },
+    {
+      "card_number": "4444333322221111",
+      "pin_code": "9876",
+      "name": "David Brown",
+      "balance": 3500.0,
+      "connected_number": "+4445556666"
+    },
+    {
+      "card_number": "6666555544443333",
+      "pin_code": "3456",
+      "name": "Sophia Martinez",
+      "balance": 2800.0,
+      "connected_number": "+6667778888"
+    },
+    {
+      "card_number": "7777666655554444",
+      "pin_code": "7890",
+      "name": "Michael Davis",
+      "balance": 2100.0,
+      "connected_number": "+7778889999"
+    },
+    {
+      "card_number": "2222111133334444",
+      "pin_code": "2345",
+      "name": "Olivia Taylor",
+      "balance": 3200.0,
+      "connected_number": "+2223334444"
+    },
+    {
+      "card_number": "8888999911112222",
+      "pin_code": "6789",
+      "name": "William Wilson",
+      "balance": 1900.0,
+      "connected_number": "+8889990000"
+    }
+  ]
+}
