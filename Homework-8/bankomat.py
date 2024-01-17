@@ -50,7 +50,6 @@ class BankomatApp:
         return False
 
     def cancel_action(self):
-        # Ask for confirmation to cancel
         user_input = input(self.translations[self.current_language]["cancel_confirmation"])
         if user_input.lower() == "yes":
             self.current_card = None
@@ -116,11 +115,11 @@ if __name__ == "__main__":
             if bankomat.login(card_number, pin):
                 print("\n===== Login Successful! Welcome, {} =====".format(bankomat.current_card["name"]))
                 while True:
-                    print("\n1. {}".format(bankomat.translations[bankomat.current_language]["check_balance"]))
-                    print("2. {}".format(bankomat.translations[bankomat.current_language]["withdraw"]))
-                    print("3. {}".format(bankomat.translations[bankomat.current_language]["change_pin_code"]))
-                    print("4. {}".format(bankomat.translations[bankomat.current_language]["change_connected_number"]))
-                    print("q. Logout")
+                    print("\n[1] {}".format(bankomat.translations[bankomat.current_language]["check_balance"]))
+                    print("[2] {}".format(bankomat.translations[bankomat.current_language]["withdraw"]))
+                    print("[3] {}".format(bankomat.translations[bankomat.current_language]["change_pin_code"]))
+                    print("[4] {}".format(bankomat.translations[bankomat.current_language]["change_connected_number"]))
+                    print("[0] Logout")
 
                     action = input(bankomat.translations[bankomat.current_language]["choose_option"])
 
@@ -152,12 +151,11 @@ if __name__ == "__main__":
                             break
                         new_number = input(bankomat.translations[bankomat.current_language]["enter_new_number"])
                         bankomat.change_connected_number(new_number)
-                    elif action.lower() == "q":
+                    elif action == "0":
                         break
                     else:
                         print(bankomat.translations[bankomat.current_language]["invalid_option"])
 
-                    # Ask if the user wants to continue
                     continue_option = input(
                         bankomat.translations[bankomat.current_language]["continue_action"]).lower()
                     if continue_option not in ["yes", "ha", "да"]:
