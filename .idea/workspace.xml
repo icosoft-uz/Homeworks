@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff715f3-9b05-4fb7-bc72-d2d8fae7b838" name="Changes" comment="Update Homeworks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework-8/bankomat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework-8/bankomat.py" afterDir="false" />
-    </list>
+    <list default="true" id="6ff715f3-9b05-4fb7-bc72-d2d8fae7b838" name="Changes" comment="Update Homeworks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705075343047</updated>
       <workItem from="1705075344356" duration="3548000" />
-      <workItem from="1705416257492" duration="12551000" />
+      <workItem from="1705416257492" duration="12600000" />
     </task>
     <task id="LOCAL-00001" summary="Update Homeworks">
       <option name="closed" value="true" />
@@ -143,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705437855702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Homeworks">
+      <option name="closed" value="true" />
+      <created>1705438381533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705438381533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
