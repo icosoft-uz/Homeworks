@@ -14,29 +14,28 @@ class BankomatApp:
         message = self.translations[self.current_language][key]
         print(message.format(**kwargs))
 
-    def validate_card_number(self, card_number):
-        # Check if input is a valid numeric string
-        if not card_number.isdigit():
+    def validate_card_number(self, card_num):
+        if not card_num.isdigit():
             self.display_message("invalid_card_number")
             return False
 
-        if not (16 <= len(card_number) <= 19):
+        if not (16 <= len(card_num) <= 19):
             self.display_message("invalid_card_number_length")
             return False
 
-        card_found = any(card["card_number"] == card_number for card in self.cards)
+        card_found = any(card["card_number"] == card_num for card in self.cards)
         if not card_found:
             self.display_message("invalid_card_number")
             return False
 
         return True
 
-    def login(self, card_number, pin):
-        if not self.validate_card_number(card_number):
+    def login(self, card_num, pin):
+        if not self.validate_card_number(card_num):
             return False
 
         for card in self.cards:
-            if card["card_number"] == card_number and card["pin_code"] == pin:
+            if card["card_number"] == card_num and card["pin_code"] == pin:
                 self.current_card = card
                 return True
 
@@ -60,27 +59,27 @@ class BankomatApp:
     def check_balance(self):
         return self.current_card["balance"]
 
-    def withdraw(self, amount):
-        if self.current_card["balance"] >= amount > 0:
-            self.current_card["balance"] -= amount
+    def withdraw(self, amount_value):
+        if self.current_card["balance"] >= amount_value > 0:
+            self.current_card["balance"] -= amount_value
             return True
         return False
 
-    def deposit(self, amount):
-        if amount > 0:
-            self.current_card["balance"] += amount
+    def deposit(self, amount_value):
+        if amount_value > 0:
+            self.current_card["balance"] += amount_value
             return True
         return False
 
-    def change_pin(self, new_pin):
-        if new_pin == input(self.translations[self.current_language]["repeat_new_pin"]):
-            self.current_card["pin_code"] = new_pin
+    def change_pin(self, new_pin_code):
+        if new_pin_code == input(self.translations[self.current_language]["repeat_new_pin"]):
+            self.current_card["pin_code"] = new_pin_code
             self.display_message("pin_changed")
         else:
             self.display_message("invalid_new_pin")
 
-    def change_connected_number(self, new_number):
-        self.current_card["connected_number"] = new_number
+    def change_connected_number(self, new_num):
+        self.current_card["connected_number"] = new_num
         self.display_message("connected_number_changed")
 
 
@@ -107,7 +106,7 @@ if __name__ == "__main__":
         while True:
             card_number = input(bankomat.translations[bankomat.current_language]["enter_card_number"])
 
-            if card_number.lower() == "q":
+            if card_number.lower() == "0":
                 break
 
             pin = input(bankomat.translations[bankomat.current_language]["enter_pin_code"])
