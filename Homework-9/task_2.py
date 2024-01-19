@@ -20,10 +20,11 @@ class Point:
         self.lon = lon
 
 
-point_a = Point(41.26465, 69.21627)  # Tashkent
-point_b = Point(40.9983, 71.67257)  # Namangan
+if __name__ == "__main__":
+    point_a = Point(41.26465, 69.21627)  # Tashkent
+    point_b = Point(40.9983, 71.67257)  # Namangan
 
-distance_calculator = Calculate(point_a, point_b)
-distance = distance_calculator.calculate_distance()
+    distance_calculator = Calculate(point_a, point_b)
+    distance = distance_calculator.calculate_distance()
 
-print(f"Distance between San Namangan and Tashkent: {distance} kilometers")
+    print(f"Distance between San Namangan and Tashkent: {distance} kilometers")
