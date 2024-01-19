@@ -17,6 +17,9 @@ class Point:
     def __str__(self):
         return f"Point({self.x}, {self.y})"
 
+    def __repr__(self):
+        return f"Point({self.x}, {self.y})"
+
 
 if __name__ == "__main__":
     point_a = Point(41.26465, 69.21627)  # Tashkent
